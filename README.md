@@ -261,7 +261,7 @@ La GPL-3.0 es una licencia de software libre y copyleft que garantiza que:
 
 ### Texto completo de la licencia:
 
-El texto completo de la licencia GNU GPL-3.0 se encuentra en el archivo [LICENSE.md](./LICENSE.md).
+El texto completo de la licencia GNU GPL-3.0 se encuentra en el archivo [LICENSE](./LICENSE).
 
 También puede consultar la licencia oficial en: https://www.gnu.org/licenses/gpl-3.0.html
 
