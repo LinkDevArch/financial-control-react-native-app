@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "icon": "./assets/icon.png",
+    "scheme": "finanzapp",
+    "name": "financial-control",
+    "slug": "financial-control",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.linkdevarch.financialcontrol"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.USE_BIOMETRIC"
+      ],
+      "package": "com.linkdevarch.financialcontrol"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-secure-store",
+      "expo-router",
+      "expo-system-ui",
+      "./plugins/withForceDarkAllowed"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a08c560a-14a5-4ab1-8262-201a543ac97f"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a08c560a-14a5-4ab1-8262-201a543ac97f"
+    }
+  }
+}
