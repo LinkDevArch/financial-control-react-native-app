@@ -34,12 +34,7 @@
     },
     "plugins": [
       [
-        "expo-build-properties",
-        {
-          "android": {
-            "usesCleartextTraffic": true
-          }
-        }
+        "expo-build-properties"
       ],
       "expo-secure-store",
       "expo-router",
