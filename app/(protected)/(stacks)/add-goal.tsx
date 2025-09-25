@@ -58,7 +58,7 @@ function AddGoalPageInner() {
     setShowTargetAmountError(!validTargetAmount);
     
     // Validar que la fecha objetivo sea posterior a la fecha de inicio
-    const validDateRange = targetDate > startDate;
+    const validDateRange = (targetDate > startDate) && (targetDate > new Date());
     setShowTargetDateError(!validDateRange);
 
     return (
@@ -236,7 +236,7 @@ function AddGoalPageInner() {
           )}
           {showTargetDateError && (
             <Text style={styles.validationError}>
-              La fecha objetivo debe ser posterior a la fecha de inicio
+              La fecha objetivo debe ser posterior a la fecha de inicio y futura al dia de hoy.
             </Text>
           )}
         </View>
